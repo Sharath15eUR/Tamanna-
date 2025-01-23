@@ -1,0 +1,1 @@
+Question 2 - Create a file and remove write permission for group user alone.
