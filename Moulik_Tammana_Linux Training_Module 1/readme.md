@@ -3,7 +3,7 @@
 ## College: Amrita Vishwa Vidyapeetham
 
 
-## 1.Create a file and add executable permission to all users
+## 1.Create a file and add executable permission to all users.
   1. Creating a file
      ```bash
      touch <filename>
@@ -59,7 +59,7 @@
    ```
    ![alt text](4.png)
 
-## 5.Create 3 files in a dir1 and re-direct the output of list command with sorted by timestamp
+## 5.Create 3 files in a dir1 and re-direct the output of list command with sorted by timestamp.
   1. Create 3 files at different instance of time
      ```bash
      touch <filename>
