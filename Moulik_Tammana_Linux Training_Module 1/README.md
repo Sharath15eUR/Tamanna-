@@ -1,4 +1,3 @@
-@ -1,52 +1,75 @@
 # Introduction to Linux OS, Architecture and Kernel
 ## Moulik Tammana
 ## College: Amrita Vishwa Vidyapeetham
