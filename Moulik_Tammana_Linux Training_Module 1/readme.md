@@ -48,4 +48,5 @@
      ```bash
      cd dir1 && cat > testsoftlink
      ```
-    ![alt text](3-1.png)
+     ![alt text](3-2.png)
+## 4.Use ps command with options to display all active process running on the system.
