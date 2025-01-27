@@ -7,7 +7,7 @@
 steps to be followed:
   1. Creating a file:
   ##
-      code/touch <filename>
+      touch <filename>
 - **Instructions:**
   - Choose between Rock, Paper, or Scissors.
   - The computer makes its choice randomly.
