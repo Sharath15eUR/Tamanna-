@@ -1,15 +1,13 @@
 # Introduction to Linux OS, Architecture and Kernel
-# Moulik Tammana
-# Amrita Vishwa Vidyapeetham
+## Moulik Tammana
+## Amrita Vishwa Vidyapeetham
 
-Welcome to **Game Zone**, a Python-based collection of interactive games and fun utilities. This program provides users with a selection of games to enjoy, including Rock-Paper-Scissors, Guess the Number, a Quiz Game, and Tic-Tac-Toe. The program also includes an ASCII art welcome interface for an enhanced gaming experience.
 
----
-
-## Features
-
-### 1. Rock, Paper, Scissors
-Play a 5-round game of Rock-Paper-Scissors against the computer.
+## 1.Create a file and add executable permission to all users
+steps to be followed:
+  1. Creating a file:
+  ##
+      code/touch <filename>
 - **Instructions:**
   - Choose between Rock, Paper, or Scissors.
   - The computer makes its choice randomly.
