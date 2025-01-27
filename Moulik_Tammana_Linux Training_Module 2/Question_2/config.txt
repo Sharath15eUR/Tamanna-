@@ -1,0 +1,4 @@
+localhost desktop
+localhost web browser
+localhost network configuration
+localhost TCP

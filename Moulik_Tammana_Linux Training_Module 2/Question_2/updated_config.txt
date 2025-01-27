@@ -1,0 +1,4 @@
+127.0.0.1 desktop
+127.0.0.1 web browser
+127.0.0.1 network configuration
+127.0.0.1 TCP
