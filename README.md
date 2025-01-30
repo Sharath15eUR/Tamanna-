@@ -1,4 +1,4 @@
-# Linux Assignment:
+## Linux Assignment:
 
 <h3>
   Module 1: Introduction to Linux OS, Architecture and Kernel <br>
