@@ -7,6 +7,9 @@ echo "----> The source, backup directory, and file type are ${arr[0]}, ${arr[1]}
 Source="${arr[0]}"
 Destination="${arr[1]}"
 File_extension="${arr[2]}"
+arr=()
+REPORT_FILE="./$Destination/backup_report.log"
+
 
 echo "---------------------------------Verification---------------------------------"
 if [[ -d "$Source" ]]; then
@@ -44,7 +47,8 @@ let new_file_count=0
 
 echo "----> Files to be backed up:"
 
-for f in $(find "$Source" -type f -name "*$File_extension"); do
+for f in $(find "$Source" -type f -name "*$File_extension"); 
+do
     filename=$(basename "$f")
     dest_file="./$Destination/$filename"
 
@@ -56,6 +60,8 @@ for f in $(find "$Source" -type f -name "*$File_extension"); do
         total_size=$((total_size + a))
         cp "$f" "$dest_file"
         let new_file_count+=1
+        arr+=("$f")
+        
     fi
 done
 
@@ -69,3 +75,19 @@ file_count=$(find ./"$Destination" -type f | wc -l)
 
 echo "Total new files backed up = $new_file_count"
 echo "Total number of text files present in the backup directory = $file_count"
+echo "${arr[*]}"
+
+
+a="---------------------------------- Backup Summary ----------------------------------" 
+{	echo "$a"
+	echo "The files to backup:"
+	echo "${arr[*]}"	
+	echo "Total number of text files present in the backup directory = $file_count"
+	echo "----> Details of files in $Destination:"
+	ls -lt ./$Destination | sort -k6n -k7n -k5n
+	file_count=$(find ./$Destination -type f | wc -l)
+	echo "Total new files backed up = $new_file_count"
+	echo "Total files processed = $(find "$Source" -type f -name "*$File_extension" | wc -l)"
+	echo "Total size of files backed up = $total_size Bytes"
+	echo "Backup directory path = $(realpath ./$Destination)" 
+} >> "$REPORT_FILE"

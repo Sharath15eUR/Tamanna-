@@ -1,0 +1,26 @@
+---------------------------------- Backup Summary ----------------------------------
+The files to backup:
+/home/moulik/source/file1__.txt /home/moulik/source/file2__.txt
+Total number of text files present in the backup directory = 2
+----> Details of files in /backup:
+total 12
+-rw-rw-r-- 1 moulik moulik  15 Jan 30 19:51 file1__.txt
+-rw-rw-r-- 1 moulik moulik  24 Jan 30 19:51 file2__.txt
+-rw-rw-r-- 1 moulik moulik 268 Jan 30 19:51 backup_report.log
+Total new files backed up = 2
+Total files processed = 2
+Total size of files backed up = 39 Bytes
+Backup directory path = /home/moulik/backup
+---------------------------------- Backup Summary ----------------------------------
+The files to backup:
+
+Total number of text files present in the backup directory = 3
+----> Details of files in /backup:
+total 12
+-rw-rw-r-- 1 moulik moulik  15 Jan 30 19:51 file1__.txt
+-rw-rw-r-- 1 moulik moulik  24 Jan 30 19:51 file2__.txt
+-rw-rw-r-- 1 moulik moulik 797 Jan 30 19:52 backup_report.log
+Total new files backed up = 0
+Total files processed = 2
+Total size of files backed up = 0 Bytes
+Backup directory path = /home/moulik/backup
