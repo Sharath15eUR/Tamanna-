@@ -16,14 +16,13 @@ bash file_analyser.sh -d <directory_name> -k <keyword>
  ```
 ![alt text](2.png) 
 
-## 3.The below command is used to generate the help menu
+### 3.The below command is used to generate the help menu
 ```bash
 bash file_analyser.sh --help
  ```
 ![alt text](3.png)
 
-
-
+### 4.The errors that are produced are stored in the error log file.
 ![alt text](4.png)  
 
 
