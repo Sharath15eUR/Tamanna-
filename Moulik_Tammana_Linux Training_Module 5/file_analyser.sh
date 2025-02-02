@@ -39,14 +39,18 @@ function search_file()
 	fi
 }
 
-function help()
-{
-	echo -e "	-d <directory>: Directory to search.\n
-	-k <keyword>: Keyword to search.\n
-	-f <file>: File to search directly.\n
-	--help: Display the help menu.\n
-	For example = bash file_analyser.sh -d <directory> -k <keyword>\n
-        	   or bash file_analyser.sh -d <file_name> -k <keyword>\n"
+function help() {
+    cat <<EOF
+    -d <directory>: Directory to search.
+    -k <keyword>: Keyword to search.
+    -f <file>: File to search directly.
+    --help: Display the help menu.
+
+    For example:
+      bash file_analyser.sh -d <directory> -k <keyword>
+      or
+      bash file_analyser.sh -d <file_name> -k <keyword>
+EOF
 }
 
 directory=""
