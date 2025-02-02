@@ -16,7 +16,7 @@ bash file_analyser.sh -d <directory_name> -k <keyword>
  ```
 ![alt text](2.png) 
 
-## 3.Use the appropriate command to list all files larger than 1 MB in the current directory and save the output to a file.
+## 3.The below command is used to generate the help menu
 ```bash
 bash file_analyser.sh --help
  ```
