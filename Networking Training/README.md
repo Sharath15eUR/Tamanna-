@@ -1,4 +1,4 @@
-## Linux Assignment:
+## Networking Training Assignment:
 
 <h3>
   Module 1: Communication Fundamentals <br>
