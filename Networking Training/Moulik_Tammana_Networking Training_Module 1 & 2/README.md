@@ -10,7 +10,7 @@
 
 ## Question 2 : Host a FTP and SFTP server using PUT and GET commands.
 ### FTP 
-
+  ![alt text](9.png)
 ### SFTP
   ![alt text](6.png)
 
