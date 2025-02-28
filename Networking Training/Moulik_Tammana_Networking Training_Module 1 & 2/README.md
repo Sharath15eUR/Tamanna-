@@ -74,6 +74,11 @@ The solution is by using  DHCP (Dynamic Host Configuration Protocol) prevents IP
   ![alt text](12.png)
 
 ## Question 9 : Log in to your home router's web interface (usually at 192.168.1.1 or 192.168.0.1) and check the connected devices list.
+1. Find Your Router's IP Address: Open the terminal and run ip route | grep default. The IP after "default via" (e.g., 192.168.1.1) is your router's web address.
+2. Open the Router’s Web Interface: Open a browser and enter http://192.168.1.1 or the IP found in the previous step.
+3. Log In to the Router: Enter the username and password (default is often admin/admin or found on the router label).
+4. Find the Connected Devices List: Navigate to "DHCP Clients," "Attached Devices," or "Connected Devices" in the router’s settings.
+5. View Device Details: The list will show connected device names, IP addresses, and MAC addresses.
 
 ## Question 10 : Explain how a DHCP server assigns IP addresses to devices in your network.
 ### Show assigned ip address 
