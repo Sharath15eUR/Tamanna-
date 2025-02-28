@@ -14,7 +14,6 @@
 ### SFTP
   ![alt text](6.png)
 
-
 ## Question 3 : Explore with Wireshark/TCP-dump/cisco packet tracer tools and learn about packets filters
 ### Packet filters using Wireshark
 #### Capturing icmp Packets
@@ -37,7 +36,6 @@ When duplicate IP addresses are configured in a network, it leads to IP address 
 5. VoIP and Streaming Failures – Real-time applications may experience drops and lag.
 
 The solution is by using  DHCP (Dynamic Host Configuration Protocol) prevents IP conflicts by automatically assigning unique IP addresses to devices. It ensures efficient IP management, avoids manual errors, and dynamically reallocates addresses when devices disconnect or reconnect.
-
 
 ## Question 6 : Understand how to access remote system using (VNC viewer, Anydesk, teamviewer and remote desktop connections)
 
@@ -68,10 +66,12 @@ The solution is by using  DHCP (Dynamic Host Configuration Protocol) prevents IP
 4. Open the Remote Desktop Client (mstsc.exe) on the local machine and input the IP.
 5. Log in with the remote system’s username and password.
 
-
 ## Question 7 : How to check your default gateway is reachable or not and understand about default gateway.
+  ![alt text](10.png)
 
 ## Question 8 : Check iwconfig/ifconfig to understand in detail about network interfaces 
+  ![alt text](11.png)
+  ![alt text](12.png)
 
 ## Question 9 : Log in to your home router's web interface (usually at 192.168.1.1 or 192.168.0.1) and check the connected devices list.
 
