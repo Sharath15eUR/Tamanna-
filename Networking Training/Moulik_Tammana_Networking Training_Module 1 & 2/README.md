@@ -16,9 +16,9 @@
 
 ## Question 3 : Explore with Wireshark/TCP-dump/cisco packet tracer tools and learn about packets filters
 ### Packet filters using Wireshark
-#### Capturing icmp Packets
-#### Capturing arp Packets
-#### Capturing tcp Packets
+Wireshark is a network protocol analyzer that captures and inspects network traffic in real time. It allows users to analyze packets to troubleshoot network issues, detect security threats, and monitor network performance. It works on multiple platforms, including Windows, Linux, and macOS.
+Some filters used for packet filtering are upt,tcp,http and dns. We can also filter packets using MAC address.
+
 ### Packet filters using tcpdump
 
 ## Question 4 : Understand linux utility commands like - ping, arp (Understand each params from ifconfig output)
