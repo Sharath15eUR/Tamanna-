@@ -81,11 +81,16 @@ The solution is by using  DHCP (Dynamic Host Configuration Protocol) prevents IP
 3. Log In to the Router: Enter the username and password (default is often admin/admin or found on the router label).
 4. Find the Connected Devices List: Navigate to "DHCP Clients," "Attached Devices," or "Connected Devices" in the router’s settings.
 5. View Device Details: The list will show connected device names, IP addresses, and MAC addresses.
-
+  ![alt text](15.png)
 ## Question 10 : Explain how a DHCP server assigns IP addresses to devices in your network.
-### Show assigned ip address 
-### Shows DHCP and gateway information
+Devices on a network are automatically assigned IP addresses and other network configuration settings (such subnet mask, gateway, and DNS servers) by the network management protocol known as DHCP (Dynamic Host Configuration Protocol). This helps prevent IP conflicts and does away with the necessity for manual IP address setting.
 
+How DHCP Operates: 
+DORA is the process that is used by DHCP. DORA helps in providing an IP address to hosts or client machines. DORA is the process that follows some steps between the server and client. It gets the IP address from the centralized server.
+Discover: To locate accessible DHCP servers, a client (such as a PC or a mobile device) makes a broadcast request.
+Offer: In response, a DHCP server provides the network configuration and an IP address that is accessible.
+Request: The client requests to utilise one of the available IP addresses.
+Acknowledgement (ACK): The server verifies that the client has been granted a lease on the IP address for a predetermined amount of time.
 
 ## Question 11 : Using a terminal, connect to a remote machine via SSH and telnet.
 ### Connecting to the remate machine using SSH login
