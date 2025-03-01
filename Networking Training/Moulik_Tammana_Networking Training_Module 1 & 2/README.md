@@ -87,10 +87,10 @@ Devices on a network are automatically assigned IP addresses and other network c
 
 How DHCP Operates: 
 DORA is the process that is used by DHCP. DORA helps in providing an IP address to hosts or client machines. DORA is the process that follows some steps between the server and client. It gets the IP address from the centralized server.
-Discover: To locate accessible DHCP servers, a client (such as a PC or a mobile device) makes a broadcast request.
-Offer: In response, a DHCP server provides the network configuration and an IP address that is accessible.
-Request: The client requests to utilise one of the available IP addresses.
-Acknowledgement (ACK): The server verifies that the client has been granted a lease on the IP address for a predetermined amount of time.
+1. Discover: To locate accessible DHCP servers, a client (such as a PC or a mobile device) makes a broadcast request.
+2. Offer: In response, a DHCP server provides the network configuration and an IP address that is accessible.
+3. Request: The client requests to utilise one of the available IP addresses.
+4. Acknowledgement (ACK): The server verifies that the client has been granted a lease on the IP address for a predetermined amount of time.
 
 ## Question 11 : Using a terminal, connect to a remote machine via SSH and telnet.
 ### Connecting to the remate machine using SSH login
