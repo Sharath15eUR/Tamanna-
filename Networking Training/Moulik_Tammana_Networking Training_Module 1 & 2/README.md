@@ -16,9 +16,9 @@
 
 ## Question 3 : Explore with Wireshark/TCP-dump/cisco packet tracer tools and learn about packets filters
 ### Packet filters using Wireshark
-#### Capturing icmp Packets
-#### Capturing arp Packets
-#### Capturing tcp Packets
+Wireshark is a network protocol analyzer that captures and inspects network traffic in real time. It allows users to analyze packets to troubleshoot network issues, detect security threats, and monitor network performance. It works on multiple platforms, including Windows, Linux, and macOS. Some filters used for packet filtering are upt,tcp,http and dns. We can also filter packets using MAC address. For example, streaming YouTube videos can be observerd by receiving UDP packets in wireshark. So in Wireshark, if you filter for udp.port == 443, you're likely capturing the QUIC traffic from YouTube and ipv6 contains '2404:6800::' this prefix is part of Google's IPv6 address space.
+  ![alt text](13.png)
+  ![alt text](14.png)
 ### Packet filters using tcpdump
 
 ## Question 4 : Understand linux utility commands like - ping, arp (Understand each params from ifconfig output)
