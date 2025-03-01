@@ -1,4 +1,4 @@
-# Assignment - 1
+# Assignment - Module 1 and 2
 
 ## Question 1 : Copying a Folder with Multiple Files to a Destination (SCP, cp)
 ### 1. Docker and Container Creation
@@ -16,7 +16,9 @@
 
 ## Question 3 : Explore with Wireshark/TCP-dump/cisco packet tracer tools and learn about packets filters
 ### Packet filters using Wireshark
-Wireshark is a network protocol analyzer that captures and inspects network traffic in real time. It allows users to analyze packets to troubleshoot network issues, detect security threats, and monitor network performance. It works on multiple platforms, including Windows, Linux, and macOS. Some filters used for packet filtering are upt,tcp,http and dns. We can also filter packets using MAC address. For example, streaming YouTube videos can be observerd by receiving UDP packets in wireshark. So in Wireshark, if you filter for udp.port == 443, you're likely capturing the QUIC traffic from YouTube and ipv6 contains '2404:6800::' this prefix is part of Google's IPv6 address space.
+Wireshark is a network protocol analyzer that captures and inspects network traffic in real time. It allows users to analyze packets to troubleshoot network issues, detect security threats, and monitor network performance. It works on multiple platforms, including Windows, Linux, and macOS.
+Some filters used for packet filtering are upt,tcp,http and dns. We can also filter packets using MAC address.
+For example, streaming YouTube videos can be observerd by receiving UDP packets in wireshark. So in Wireshark, if you filter for udp.port == 443, you're likely capturing the QUIC traffic from YouTube and ipv6 contains '2404:6800::' this prefix is part of Google's IPv6 address space.
   ![alt text](13.png)
   ![alt text](14.png)
 ### Packet filters using tcpdump
@@ -74,6 +76,11 @@ The solution is by using  DHCP (Dynamic Host Configuration Protocol) prevents IP
   ![alt text](12.png)
 
 ## Question 9 : Log in to your home router's web interface (usually at 192.168.1.1 or 192.168.0.1) and check the connected devices list.
+1. Find Your Router's IP Address: Open the terminal and run ip route | grep default. The IP after "default via" (e.g., 192.168.1.1) is your router's web address.
+2. Open the Router’s Web Interface: Open a browser and enter http://192.168.1.1 or the IP found in the previous step.
+3. Log In to the Router: Enter the username and password (default is often admin/admin or found on the router label).
+4. Find the Connected Devices List: Navigate to "DHCP Clients," "Attached Devices," or "Connected Devices" in the router’s settings.
+5. View Device Details: The list will show connected device names, IP addresses, and MAC addresses.
 
 ## Question 10 : Explain how a DHCP server assigns IP addresses to devices in your network.
 ### Show assigned ip address 
