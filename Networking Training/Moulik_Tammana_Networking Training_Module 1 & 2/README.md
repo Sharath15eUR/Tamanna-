@@ -18,6 +18,7 @@
 ### Packet filters using Wireshark
 Wireshark is a network protocol analyzer that captures and inspects network traffic in real time. It allows users to analyze packets to troubleshoot network issues, detect security threats, and monitor network performance. It works on multiple platforms, including Windows, Linux, and macOS.
 Some filters used for packet filtering are upt,tcp,http and dns. We can also filter packets using MAC address.
+For example, streaming YouTube videos can be observerd by receiving UDP packets in wireshark. So in Wireshark, if you filter for udp.port == 443, you're likely capturing the QUIC traffic from YouTube and ipv6 contains '2404:6800::' this prefix is part of Google's IPv6 address space.
 
 ### Packet filters using tcpdump
 
