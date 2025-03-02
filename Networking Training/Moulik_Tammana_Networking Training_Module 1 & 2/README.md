@@ -94,7 +94,8 @@ DORA is the process that is used by DHCP. DORA helps in providing an IP address 
 
 ## Question 11 : Using a terminal, connect to a remote machine via SSH and telnet.
 ### Connecting to the remate machine using SSH login
+  ![alt text](18.png)
 ### Connecting to the remote machine using telnet
-
+  ![alt text](19.png)
 
 
